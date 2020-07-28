@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+	<title>Winingsih Purwati</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta content="Winingsih Purwati">
+	<!-- a grid framework in 250 bytes? are you kidding me?! -->
+	<link rel="stylesheet" href="css/grid.css">
+
+	<!-- all the important responsive layout stuff -->
+	<style>
+		.container { max-width: 90em; }
+
+		/* you only need width to set up columns; all columns are 100%-width by default, so we start
+		   from a one-column mobile layout and gradually improve it according to available screen space */
+
+		@media only screen and (min-width: 34em) {
+			.feature, .info { width: 50%; }
+		}
+
+		@media only screen and (min-width: 54em) {
+			.content { width: 66.66%; }
+			.sidebar { width: 33.33%; }
+			.info    { width: 100%;   }
+		}
+
+		@media only screen and (min-width: 76em) {
+			.content { width: 58.33%; } /* 7/12 */
+			.sidebar { width: 41.66%; } /* 5/12 */
+			.info    { width: 50%;    }
+		}
+	</style>
+	<style type="text/css">
+		/* width */
+		::-webkit-scrollbar {
+		  width: 10px;
+		}
+
+		/* Track */
+		::-webkit-scrollbar-track {
+		  background: #f1f1f1;
+		}
+
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+		  background: #888;
+		}
+
+		/* Handle on hover */
+		::-webkit-scrollbar-thumb:hover {
+		  background: #555;
+		}
+	</style>
+	<!-- general boring stuff and some visual tweaks -->
+	<link rel="stylesheet" href="css/screen.css">
+
+</head>
+<body>
+
+<div class="container">
+
+	<div class="row col">
+		<h1>Winingsih Purwati</h1>
+	</div>
+
+	<div class="row">
+		<div class="col content">
+			<h3>Web Developer • Third Born Child • 4 blidings</h3>
+			<p class="desc">grew up and lived in <a href="http://tiny.cc/gmapIndramayu" target="_blank">indramayu, west java</a></p>
+
+			<p class="intro">
+				Hello, I'm Winingsih Purwati.. usually people call me <code><i><b>Wiwin</b></i></code>.
+				<br>
+				I'm a web developer from <a href="http://tiny.cc/gmapIndramayu" target="_blank">Indramayu, West Java, Indonesia</a>.
+				I'm fast learner and flexible, I also like new things about tech, data science, and hobby of sewing also love Hypertext preprocessor and Javascript
+			</p>
+
+			<h2>Experience</h2>
+			<div class="row">
+				<div class="col feature">
+					<h3>PT. Fiber Networks Indonesia</h3>
+					<h4>Programmer <br><code><small>Oct 2019 – Dec 2019</small></code></h4>
+					<p>Job Desc :</p>
+					<ul>
+						<li>Develop web-based Online Examination application for FORKI</li>
+					</ul><br><br><br><br>
+				</div>
+				<div class="col feature">
+					<h3>PT. Daya Sinergi Telekomunikasi</h3>
+					<h4>Programmer <br><code><small>Jul 2018 – Jul 2019</small></code></h4>
+					<p>Job Desc :</p>
+					<ul>
+						<li>Develop web-based Human Resource (HRIS) application</li>
+						<li>Create a web-based Video Conferences application</li>
+						<li>Create a web-based User Manager Mikrotik application</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col feature">
+					<h3>PT. Andalas Media Informatika</h3>
+					<h4>Supervisor Programmer <br><code><small>Oct 2017 – Jul 2018</small></code></h4>
+					<p>Job Desc :</p>
+					<ul>
+						<li>Develop web-based Human Resource (HRIS) application</li>
+						<li>Create a web-based Customer Relationship Management (CRM) application</li>
+						<li>Create a web-based Purchasing application</li>
+						<li>Create a web-based Inventory application</li>
+					</ul><br><br><br><br><br><br><br><br><br>
+				</div>
+				<div class="col feature">
+					<h3>PT. Jaring Solusi Aplikasi (Net2Software)</h3>
+					<h4>Delivery Solutions & Product (Project Manager) <br><code><small>Oct 2016 – Oct 2017</small></code></h4>
+					<p>Job Desc :</p>
+					<ul>
+						<li>Meeting with clients or prospective customers</li>
+						<li>Deliver Minutes of Meeting (MOM)</li>
+						<li>Design the system with a systems analyst team (Fowchart, Relational DB, etc)</li>
+						<li>Division of tasks for programmers and scheduling</li>
+						<li>Collecting programmer tasks</li>
+						<li>Manual software tester</li>
+						<li>User Acceptance Test (UAT) with clients or customers</li>
+						<li>Documentation (User Manual/User Guide)</li>
+						<li>Technical Documentation</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col feature">
+					<h2>Internship</h2>
+					<h3>PT. Integrasia Utama</h3>
+					<h4>Junior Web Developer <br><code><small>Jul 2015 – Dec 2015</small></code></h4>
+					<p>Job Desc :</p>
+					<ul>
+						<li>Create a web-based Ticketing application</li>
+						<li>Create a web-based Inventory application</li>
+						<li>Create a web-based Customer Service application</li>
+					</ul>
+				</div>
+				<div class="col feature">
+					<h3>PT. Panasonic Industrial Component Indonesia</h3>
+					<h4>Operator Production (Quality Control Inspector - Appearance) <br><code><small>Nov 2012 – Dec 2013</small></code></h4>
+					<p>Job Desc :</p>
+					<ul>
+						<li>Inspect components (capasitor)</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="col sidebar">
+
+			<h2>Portfolio</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+
+			<div class="row">
+				<div class="col info">
+					<h4>Info Block One</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+				</div>
+
+				<div class="col info">
+					<h4>Info Block Two</h4>
+
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col feature">
+					<h4>Feature Block One</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				</div>
+
+				<div class="col feature">
+					<h4>Feature Block Two</h4>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				</div>
+			</div>
+
+			<p class="social">
+				<iframe src="http://ghbtns.com/github-btn.html?user=mourner&amp;repo=dead-simple-grid&amp;type=watch&amp;count=true" width="84" height="20"></iframe>
+  				<iframe src="http://ghbtns.com/github-btn.html?user=mourner&amp;repo=dead-simple-grid&amp;type=fork&amp;count=true" width="84" height="20"></iframe>
+  				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://github.com/mourner/dead-simple-grid" data-text="Dead Simple Grid — a 250-byte responsive CSS grid framework that is just that. Dead simple." data-related="LeafletJS">Tweet</a>
+  			</p>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+</div>
+
+<br>
+<br>
+</body>
+</html>
