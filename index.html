@@ -6,11 +6,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<meta content="Winingsih Purwati">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
 	<!-- a grid framework in 250 bytes? are you kidding me?! -->
 	<link rel="stylesheet" href="css/grid.css">
 
 	<!-- all the important responsive layout stuff -->
 	<style>
+		.title-font {
+		  font-family: 'Dancing Script', serif;
+		  text-shadow: 2px 2px 2px #ff00005c;
+		}
+
 		.container { max-width: 90em; }
 
 		/* you only need width to set up columns; all columns are 100%-width by default, so we start
@@ -30,6 +36,13 @@
 			.content { width: 58.33%; } /* 7/12 */
 			.sidebar { width: 41.66%; } /* 5/12 */
 			.info    { width: 50%;    }
+		}
+		.a2 {
+			color: #000;
+			text-decoration: none;
+		}
+		a:hover.a2 {
+		    color: #06f;
 		}
 	</style>
 	<style type="text/css">
@@ -62,7 +75,7 @@
 <div class="container">
 
 	<div class="row col">
-		<h1>Winingsih Purwati</h1>
+		<h1 class="title-font"><a class="a2 title-font" href="#">Winingsih Purwati</a></h1>
 	</div>
 
 	<div class="row">
@@ -154,37 +167,47 @@
 
 		<div class="col sidebar">
 
-			<h2>Portfolio</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-
+			<h2>Portfolio</h2> 
+			<p>Here is a system that I have developed: </p>
 			<div class="row">
-				<div class="col info">
-					<h4>Info Block One</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+				<div class="col feature">
+					<h4><a class="a2" href="#"># CRM (Customer Relationship Management)</a></h4>
 				</div>
-
-				<div class="col info">
-					<h4>Info Block Two</h4>
-
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+				<div class="col feature">
+					<h4><a class="a2" href="#"># HRIS (Human Resource Information System)</a></h4>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col feature">
-					<h4>Feature Block One</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					<h4><a class="a2" href="#"># Inventory Management System</a></h4>
 				</div>
-
 				<div class="col feature">
-					<h4>Feature Block Two</h4>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et m. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+					<h4><a class="a2" href="#"># Internal Video Conferences</a></h4>
 				</div>
 			</div>
-
+			<div class="row">
+				<div class="col info">
+					<h4><a class="a2" href="#"># Purchasing</a></h4>
+					<!-- <p style="margin-bottom: 0px;">Feature</p>
+					<ul>
+						<li>Create Hotspot</li>
+						<li>Create voucher</li>
+						<li>Bandwidth Setting</li>
+						<li>Access Router</li>
+						<li>Billing voucher</li>
+					</ul> -->
+				</div>
+				<div class="col info">
+					<h4><a class="a2" href="#"># User Manager Mikrotik</a></h4>
+				</div> 
+			</div>
+			<p style="margin-bottom: 0px;">Please contact me through the email for details...</p>
+			<p><code style="margin-bottom: 3px;">winingsih.p@gmail.com</code></p>
 			<p class="social">
-				<iframe src="http://ghbtns.com/github-btn.html?user=mourner&amp;repo=dead-simple-grid&amp;type=watch&amp;count=true" width="84" height="20"></iframe>
+				Made with <font color="red">&#10084;</font>
+				<!-- <iframe src="http://ghbtns.com/github-btn.html?user=mourner&amp;repo=dead-simple-grid&amp;type=watch&amp;count=true" width="84" height="20"></iframe>
   				<iframe src="http://ghbtns.com/github-btn.html?user=mourner&amp;repo=dead-simple-grid&amp;type=fork&amp;count=true" width="84" height="20"></iframe>
-  				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://github.com/mourner/dead-simple-grid" data-text="Dead Simple Grid — a 250-byte responsive CSS grid framework that is just that. Dead simple." data-related="LeafletJS">Tweet</a>
+  				<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://github.com/mourner/dead-simple-grid" data-text="Dead Simple Grid — a 250-byte responsive CSS grid framework that is just that. Dead simple." data-related="LeafletJS">Tweet</a> -->
   			</p>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div>
